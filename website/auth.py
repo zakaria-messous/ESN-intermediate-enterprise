@@ -6,6 +6,6 @@ auth = Blueprint('auth', __name__)
 def login():
     return "<p>Login</p>"
 
-@auth.route('/login')
+@auth.route('/logout')
 def logout():
     return "<p>Logout</p>"
