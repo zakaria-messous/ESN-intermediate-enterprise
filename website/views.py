@@ -45,4 +45,9 @@ def erreur():
     # Your profile page logic here
     return render_template('404.html')
 
+@views.route('/login')
+def login():
+    # Your profile page logic here
+    return render_template('login.html')
+
 
